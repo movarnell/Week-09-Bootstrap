@@ -1,0 +1,66 @@
+.backgroundJumbo {
+  background-color: rgb(81, 17, 14);
+  background-size: cover;
+  opacity: 0.9;
+  filter: alpha(opacity=50)
+}
+
+.box_textshadow {
+  text-shadow: 2px 2px 0px #000000;
+  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+.backgroundNT {
+  background-color: #52100d;
+}
+
+.fontHelvetica {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+button.btn {
+  margin-top: auto;
+}
+
+.fade {
+  height: 100%;
+  /* ges Hoehe der Seite -> weitere Hoehenangaben werden relativ hierzu ausgewertet */
+  overflow: hidden;
+  /*  hide scrollbars */
+  opacity: 1.0;
+  -webkit-transition: background 1.5s linear;
+  -moz-transition: background 1.5s linear;
+  -o-transition: background 1.5s linear;
+  -ms-transition: background 1.5s linear;
+  transition: background 1.5s linear;
+}
+
+.backgroundRed {
+  background-image: url("images/backgroundredtunnel.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.gamesBackground {
+  background-image: url("images/cool-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.tinyText {
+  font-size: xx-small;
+}
